@@ -1,0 +1,123 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700;800&display=swap');
+
+:root {
+  --blog-background: #f8f9fa;
+  --blog-header: #34421e;
+  --blog-post-title: #c19434;
+  --blog-post-text: #112031;
+  --blog-post-date: #112031;
+
+  --blog-post-username: #c19434;
+  --error-message: #cc0000;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--blog-background);
+  font-family: 'Kaisei Tokumin', serif;
+}
+
+/* HEADERS ------------------------------------------------------------------------- */
+
+h1 {
+  font-family: 'Kaisei Tokumin', serif;
+}
+
+h3 {
+  text-align: center;
+  color: var(--blog-post-text);
+}
+
+/* Home Page ------------------------------------------------------------------------- */
+
+.blog-header {
+  font-size: 2.4rem !important;
+  text-decoration: none;
+  color: var(--blog-header);
+}
+
+.blog-header:hover {
+  font-size: 2.4rem !important;
+  text-decoration: none;
+  color: var(--blog-header);
+}
+
+/* ICONS ------------------------------------------------------------------------- */
+
+.icon-size {
+  font-size: 2rem;
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+.logo-github {
+  color: #4078c0;
+}
+
+.logo-linkedin {
+  color: #006192;
+}
+
+/* BLOG POSTS */
+
+.featurette-divider:last-child {
+  background-color: var(--blog-background);
+}
+
+.blog-post-title {
+  text-decoration: none;
+  color: var(--blog-post-title);
+  margin-bottom: 0.25rem;
+  font-size: 1.8rem !important;
+}
+
+.blog-post-meta {
+  margin-bottom: 0.25rem !important;
+  color: var(--dark-blue);
+}
+
+.blog-post-text {
+  margin-bottom: 0.25rem !important;
+  /* To preserve white space  */
+  white-space: pre-line;
+  color: var(--blog-post-text);
+}
+
+.comment-textarea,
+.blog-post-text {
+  line-height: 1.6rem;
+  color: var(--blog-post-text);
+}
+
+.comment-textarea {
+  color: var(--blog-post-comments);
+}
+
+.post-date {
+  color: var(--blog-post-date);
+}
+
+.username {
+  color: var(--blog-post-username);
+}
+
+/* LOGIN & SIGNUP ------------------------------------------------------------------------- */
+
+.signup-check,
+.login-check {
+  text-align: center;
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+  color: var(--error-message);
+}
+
+span.italics {
+  font-style: italic;
+}
