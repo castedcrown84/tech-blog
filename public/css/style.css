@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700;800&display=swap');
 
 :root {
-  --blog-background: #f8f9fa;
+  --blog-background: #4fa782;
   --blog-header: #34421e;
-  --blog-post-title: #c19434;
+  --blog-post-title: #3c3199;
   --blog-post-text: #112031;
   --blog-post-date: #112031;
 
-  --blog-post-username: #c19434;
+  --blog-post-username: #921212;
   --error-message: #cc0000;
 }
 
