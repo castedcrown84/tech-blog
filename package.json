@@ -1,6 +1,6 @@
 {
   "name": "techy-blog",
-  "version": "1.0.0",
+  "version": "16.10.0",
   "description": "",
   "main": "server.js",
   "scripts": {
